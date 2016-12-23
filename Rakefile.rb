@@ -1,12 +1,12 @@
+# frozen_string_literal: true
 require 'utils'
 
 EPUB_FILE  = 'Land_of_Lisp.epub'
-TARGET_DIR = 'temp'
+TARGET_DIR = 'kindle'
 
 mkdir TARGET_DIR unless File.exist?(TARGET_DIR)
 
 task :default => [:unzip, :fix_img, :fix_ncx, :add_pagebreak, :make_kindle]
-#task :default => [:fix_img, :fix_ncx, :add_pagebreak, :make_kindle]
 
 desc 'unzip epub'
 task :unzip do
