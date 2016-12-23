@@ -1,8 +1,7 @@
 # kindle-Land-of-Lisp
 
-Land of Lisp is an awesome book.
-I bought it from O'Reilly, but its figure is too small to read.
-I tried to improve this issue.
+Land of Lisp is an awesome book, but unfortunately its figures are too small to read on my Kindle Paperwhite and Fire HDX8.9.  
+So I tried to improve this issue.
 
 ## What you need
 
